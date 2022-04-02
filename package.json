@@ -4,7 +4,7 @@
   "description": "Search for all URLs in all markdown files inside a folder and return the status code of them",
   "main": "./cli.js",
   "scripts": {
-    "test": "jest ./test",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js ./test",
     "cli": "node cli.js ./arquivos/texto1.md",
     "cli2": "node cli.js ./arquivos/"
   },

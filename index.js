@@ -1,4 +1,4 @@
-import chalk from 'chalk';
+//import chalk from 'chalk';
 import fs from 'fs';
 import path from 'path';
 
@@ -16,7 +16,7 @@ function extraiLinks(texto) {
 }
 
 function trataErro(erro) {
-    throw new Error(chalk.red(erro.code, 'Não há arquivo no caminho'));
+    throw new Error(erro.code, 'Não há arquivo no caminho');
 }
 
 
